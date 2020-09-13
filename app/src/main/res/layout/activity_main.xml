@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/bangers"
+        android:text="Servic Force BD"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#42B04A"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="290dp"
+        android:layout_height= "2dp"
+        android:background="#000"
+        android:layout_below="@+id/ptxt"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/stxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/cookie"
+        android:text="One Stop Service Center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#42B04A"/>
+
+</RelativeLayout>
